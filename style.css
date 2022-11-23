@@ -1,0 +1,102 @@
+body{
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Playfair Display SC', serif;
+}
+*,*:before,*:after{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } :focus,:active,a:focus,a:active{outline: none;} 
+nav,footer,header,aside{display: block;} 
+html,body{ margin: 0; height: 100%;  font-size: 100%; line-height: 1; font-size: 14px; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } 
+input,button,textarea{font-family:inherit;} 
+input::-ms-clear{display: none;}
+ button{cursor: pointer;} 
+ button::-moz-focus-inner {padding:0;border:0;} 
+ a, a:visited, a:hover{text-decoration: none;}
+  ul li{list-style: none;} img{vertical-align: top;} 
+  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} 
+
+  .container {
+    max-width:1440px;
+    height: auto;
+    margin: auto;
+  }
+
+/* header */
+.nav_inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px
+}
+.nav_block {
+  align-items:stretch;
+
+}
+.nav_block:nth-child(2){
+  display: flex;
+}
+.logo {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+}
+.nav_item {
+  padding-left:75px;
+  align-items:center;
+}
+.nav_item a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  transition: all 0.3s ease;
+}
+.nav_item a:hover{
+  font-weight: 700;
+}
+.search_icon {
+  width: 20px;
+  height: 19px;
+  cursor: pointer;
+  fill:gray;
+  transition: all 0.3s ease;
+}
+.search_icon:hover {
+ fill:black;
+}
+.intro {
+}
+.intro_inner {
+  position: relative;
+}
+.intro_img {
+  width: 100%;
+  position: absolute;
+}
+.intro_block {
+  width: 691px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
+  top: 275px;
+  padding: 0 130px;
+
+}
+.intro_title {
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 51px;
+line-height: 68px;
+padding-top: 130px;
+margin-bottom: 0;
+}
+.intro_subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 39px;
+  margin:0 ;
+  padding-bottom:80px;
+}
