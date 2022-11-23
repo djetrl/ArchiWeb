@@ -104,10 +104,11 @@ margin-bottom: 0;
 }
 /* OurServices */
 .OurServices {
-  background-color:#254D4D33;
+ 
   color:#2F2E2E;
 }
 .OurServices_inner {
+  background-color:#254D4D33;
 }
 .OurServices_object {
   text-align: center;
@@ -144,10 +145,7 @@ line-height: 21px;
 }
 
 /* AboutUS */
-.AboutUS {
-}
-.container {
-}
+
 .AboutUs_inner {
   display: flex;
   margin: 5% 10%;
@@ -198,6 +196,7 @@ line-height: 68px;
   height: auto;
   margin-bottom: 5%;
 }
+/* Testimonial */
 .Testimonial {
   font-family: 'Playfair Display';
   font-style: normal;
@@ -243,11 +242,12 @@ line-height: 68px;
 /* footer */
 .footer {
   margin-top: 70px;
-  background-color:#2E2F32;
+
 }
 
 .footer_inner {
  padding: 36px 0 26px 100px;
+ background-color:#2E2F32;
 }
 .social_item  svg{
   fill:#FAFAFA;
